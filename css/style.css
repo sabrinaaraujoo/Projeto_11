@@ -3,3 +3,45 @@
     margin: 0;
     box-sizing: border-box;
 }
+
+body{
+    background: rgb(255, 255, 255);
+}
+
+.clear{clear: both;}
+
+.center{
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 0 2%;
+}
+
+header{
+    margin-top: 10px;
+}
+
+.logo{
+    float: left;
+}
+
+.logo img{
+    max-width: 100%;
+}
+
+.menu{
+    margin-top: 20px;
+    float: right;
+}
+
+.menu a{
+    text-decoration: none;
+    color: black;
+    margin: 0 15px;
+}
+
+.menu a.btn-cta{
+    background-color: #30851d;
+    color: white;
+    font-size: 19px;
+    padding: 8px 25px;
+}
