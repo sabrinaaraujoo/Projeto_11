@@ -12,7 +12,7 @@ body{
 .clear{clear: both;}
 
 .center{
-    max-width: 960px;
+    max-width: 1100px;
     margin: 0 auto;
     padding: 0 2%;
 }
@@ -37,12 +37,90 @@ header{
 .menu a{
     text-decoration: none;
     color: black;
-    margin: 0 15px;
+    font-size: 13px;
+    margin: 0 30px;
 }
 
 .menu a.btn-cta{
-    background-color: #30851d;
+    background: #30851d;
     color: white;
-    font-size: 19px;
-    padding: 8px 25px;
+    font-size: 12px;
+    padding: 12px 40px;
+}
+
+section.inicio{
+    background: white;
+    padding: 30px 0;
+}
+
+.texto-inicio{
+    float: left;
+    width: 50%;
+    margin: 60px 10px 0 -10px;
+    color: #11223f;
+    padding: 0 10px;
+}
+
+.texto-inicio h2{
+    font-size: 34px;
+    margin-bottom: 20px;
+}
+
+.texto-inicio p{
+    font-size: 18px;
+    line-height: 28px;
+    margin-bottom: 30px;
+}
+
+.texto-inicio a{
+    margin-right: 10px;
+}
+
+.img-inicio{
+    float: left;
+    width: calc(50%- 30px);
+    margin-left: 30px;
+}
+
+.img-inicio img{max-width: 100%;}
+
+section.avaliacao{
+    margin-top: 30px;
+}
+
+.box{
+    display: flex;
+}
+
+.box-avaliacao{
+    width: calc(50% - 30px);
+    display: flex;
+    flex-wrap: wrap;
+    padding: 30px;
+    margin-right: 30px;
+    box-shadow: 10px 10px 38px 3px rgba(0,0,0,0.13);
+    -webkit-box-shadow: 10px 10px 38px 3px rgba(0,0,0,0.13);
+    -moz-box-shadow: 10px 10px 38px 3px rgba(0,0,0,0.13);
+}
+
+.box-avaliacao p{
+    width: 86%;
+    font-style: italic;
+    color: #11223f;
+    line-height: 24px;
+    font-weight: 500;
+    font-size: 15px;
+    padding-right: 30px;
+}
+
+.box-avaliacao b{
+    margin-top: 10px;
+    font-style: normal;
+    color: chartreuse;
+    font-size: 14px;
+}
+
+.box-avaliacao img{
+    width: 12%;
+    height: 45px;
 }
